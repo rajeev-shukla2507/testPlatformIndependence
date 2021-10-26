@@ -28,6 +28,7 @@ public class BaseTest {
 			   chromedriverPath+="_linux";
 		}
 			
+		System.out.println("chromedriverPath: "+chromedriverPath);
 		System.setProperty("webdriver.chrome.driver",chromedriverPath);
 		ChromeOptions options = new ChromeOptions();
 	    options.setExperimentalOption("useAutomationExtension", false);
