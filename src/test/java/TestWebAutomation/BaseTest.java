@@ -32,6 +32,7 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver",chromedriverPath);
 		ChromeOptions options = new ChromeOptions();
 	    options.addArguments("headless");
+	    options.addArguments("disable-gpu");
 
 		this.driver= new ChromeDriver(options);
 		this.driver.manage().window().maximize();
