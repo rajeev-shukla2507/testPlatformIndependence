@@ -21,14 +21,18 @@ public class BaseTest {
 		String chromedriverPath=System.getProperty("user.dir")+"/src/test/resources/chromedriver";
 		
 		System.out.println(System.getProperty("os.name"));
-		if(System.getProperty("os.name").toLowerCase().contains("win"))
+		if(System.getProperty("os.name").toLowerCase().contains("win")){
 			   chromedriverPath+=".exe";
-		
+				
+		}else if (System.getProperty("os.name").toLowerCase().contains("linux")){
+			   chromedriverPath+="_linux";
+		}
+			
 		System.setProperty("webdriver.chrome.driver",chromedriverPath);
 		ChromeOptions options = new ChromeOptions();
 	    options.setExperimentalOption("useAutomationExtension", false);
 	    options.addArguments("disable-infobars");    
-		//options.setHeadless(true);
+	    options.setHeadless(true);
 
 		this.driver= new ChromeDriver(options);
 		this.driver.manage().window().maximize();
