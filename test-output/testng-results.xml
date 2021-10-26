@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoSuite" duration-ms="4858" started-at="2021-10-27T00:31:32 IST" finished-at="2021-10-27T00:31:37 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="TestUploadFunctionalityUsingSendKeys.verifyUploadaFileFeature(java.lang.String)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@2344fc66]" name="verifyUploadaFileFeature" class="TestWebAutomation.TestUploadFunctionalityUsingSendKeys"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="DemoTest" duration-ms="4858" started-at="2021-10-27T00:31:32 IST" finished-at="2021-10-27T00:31:37 IST">
+      <class name="TestWebAutomation.TestUploadFunctionalityUsingSendKeys">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@2344fc66]" name="setUp" is-config="true" duration-ms="2148" started-at="2021-10-27T00:31:32 IST" finished-at="2021-10-27T00:31:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56276db8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUploadaFileFeature(java.lang.String)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@2344fc66]" name="verifyUploadaFileFeature" duration-ms="1828" started-at="2021-10-27T00:31:35 IST" data-provider="dataProviderForUploadFunctionalityUsingSendKeys" finished-at="2021-10-27T00:31:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\WorkSpaces\eclipse-workspace\remoteWebDriver\test.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadaFileFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@2344fc66]" name="tearDown" is-config="true" duration-ms="632" started-at="2021-10-27T00:31:36 IST" finished-at="2021-10-27T00:31:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestWebAutomation.TestUploadFunctionalityUsingSendKeys -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- DemoSuite -->
+</testng-results>

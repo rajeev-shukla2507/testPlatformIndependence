@@ -31,9 +31,7 @@ public class BaseTest {
 		System.out.println("chromedriverPath: "+chromedriverPath);
 		System.setProperty("webdriver.chrome.driver",chromedriverPath);
 		ChromeOptions options = new ChromeOptions();
-	    options.setExperimentalOption("useAutomationExtension", false);
-	    options.addArguments("disable-infobars");    
-	    options.setHeadless(true);
+	    options.addArguments("headless");
 
 		this.driver= new ChromeDriver(options);
 		this.driver.manage().window().maximize();
