@@ -16,26 +16,35 @@ public class BaseTest {
 	
 	@BeforeClass(alwaysRun=true)
 	public void setUp(ITestContext testcontext){
-		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe");
+        String chromedriverPath=System.getProperty("user.dir")+"/src/test/resources/";
 		
-		String chromedriverPath=System.getProperty("user.dir")+"/src/test/resources/chromedriver";
 		
 		System.out.println(System.getProperty("os.name"));
 		if(System.getProperty("os.name").toLowerCase().contains("win")){
-			   chromedriverPath+=".exe";
+			   chromedriverPath+="win/chromedriver.exe";
 				
 		}else if (System.getProperty("os.name").toLowerCase().contains("linux")){
-			   chromedriverPath+="_linux";
+			
+				
+			  chromedriverPath+= "linux/chromedriver";
+			//chromedriverPath = "/usr/bin/chromedriver";
+			   
+		}if  (System.getProperty("os.name").toLowerCase().contains("mac")){
+			
+			
+			  chromedriverPath+= "mac/chromedriver";
+			//chromedriverPath = "/usr/bin/chromedriver";
+			   
 		}
 			
 		System.out.println("chromedriverPath: "+chromedriverPath);
 		System.setProperty("webdriver.chrome.driver",chromedriverPath);
-		ChromeOptions options = new ChromeOptions();
-	    options.addArguments("headless");
-	    options.addArguments("disable-gpu");
-
-		this.driver= new ChromeDriver(options);
-		this.driver.manage().window().maximize();
+		
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        options.addArguments("disable-gpu");
+        driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
 		testcontext.setAttribute("driver", driver);
 	}
 	
