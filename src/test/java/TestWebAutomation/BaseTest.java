@@ -26,8 +26,8 @@ public class BaseTest {
 		}else if (System.getProperty("os.name").toLowerCase().contains("linux")){
 			
 				
-			 // chromedriverPath+= "linux/chromedriver";
-			chromedriverPath = "/testPlatformIndependence/src/test/resources/linux/chromedriver";
+			chromedriverPath+= "linux/chromedriver";
+			//chromedriverPath = "/testPlatformIndependence/src/test/resources/linux/chromedriver";
 			   
 		}if  (System.getProperty("os.name").toLowerCase().contains("mac")){
 			
