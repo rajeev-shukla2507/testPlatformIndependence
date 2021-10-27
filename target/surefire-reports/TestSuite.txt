@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 28.066 sec <<< FAILURE!
-verifySearchFunctionality(TestWebAutomation.TestSearchFeature)  Time elapsed: 3.278 sec  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 24.961 sec <<< FAILURE!
+verifySearchFunctionality(TestWebAutomation.TestSearchFeature)  Time elapsed: 3.592 sec  <<< FAILURE!
 java.lang.AssertionError: Product 'Blouse' should not be in result for keyword 'short'. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at TestWebAutomation.TestSearchFeature.verifySearchFunctionality(TestSearchFeature.java:42)
 
-verifySearchFunctionality(TestWebAutomation.TestSearchFeature)  Time elapsed: 3.439 sec  <<< FAILURE!
+verifySearchFunctionality(TestWebAutomation.TestSearchFeature)  Time elapsed: 2.215 sec  <<< FAILURE!
 java.lang.AssertionError: Product 'Faded Short Sleeves T-shirt' should not be in result for keyword 'printed dress'. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)

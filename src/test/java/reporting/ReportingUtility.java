@@ -168,11 +168,12 @@ public class ReportingUtility extends TestListenerAdapter{
 	public void onFinish(ITestContext textContext){
 		extentReport.flush();
 		methodTest.remove();
+		/*
 		try{
 			Desktop.getDesktop().browse(new File(fullReportName).toURI());
 		}catch(IOException e){
 			e.printStackTrace();
-		}
+		}*/
 	}
 	 
 	  

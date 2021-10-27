@@ -13,7 +13,7 @@ import testData.dataProvider;
 
 public class TestSearchFeature extends BaseTest {
 	
-	//@Test(dataProvider="dataProviderForSearchFunctionality",dataProviderClass=dataProvider.class,groups={"Regression"})
+	@Test(dataProvider="dataProviderForSearchFunctionality",dataProviderClass=dataProvider.class,groups={"Regression"})
 	public void verifySearchFunctionality(String searchCriteria) throws Throwable{
 		
 		HomePage intHomePage = openApplication("http://automationpractice.multiformis.com/");

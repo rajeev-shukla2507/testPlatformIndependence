@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="26380" started-at="2021-10-27T00:10:49 IST" finished-at="2021-10-27T00:11:15 IST">
+  <suite name="Command line suite" duration-ms="23637" started-at="2021-10-27T20:42:50 IST" finished-at="2021-10-27T20:43:13 IST">
     <groups>
       <group name="Regression">
         <method signature="TestSearchFeature.verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" class="TestWebAutomation.TestSearchFeature"/>
+        <method signature="TestUploadFunctionalityUsingSendKeys.verifyUploadaFileFeature(java.lang.String)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@6c3708b3]" name="verifyUploadaFileFeature" class="TestWebAutomation.TestUploadFunctionalityUsingSendKeys"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Command line test" duration-ms="26380" started-at="2021-10-27T00:10:49 IST" finished-at="2021-10-27T00:11:15 IST">
+    <test name="Command line test" duration-ms="23637" started-at="2021-10-27T20:42:50 IST" finished-at="2021-10-27T20:43:13 IST">
       <class name="TestWebAutomation.TestSearchFeature">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="setUp" is-config="true" duration-ms="3368" started-at="2021-10-27T00:10:49 IST" finished-at="2021-10-27T00:10:53 IST">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="setUp" is-config="true" duration-ms="1756" started-at="2021-10-27T20:42:50 IST" finished-at="2021-10-27T20:42:52 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@497570fb]]>
+                <![CDATA[org.testng.TestRunner@301d8120]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="9789" started-at="2021-10-27T00:10:53 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T00:11:02 IST">
+        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="7972" started-at="2021-10-27T20:42:52 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T20:43:00 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="FAIL" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2765" started-at="2021-10-27T00:11:02 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T00:11:05 IST">
+        <test-method status="FAIL" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="3407" started-at="2021-10-27T20:43:00 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T20:43:03 IST">
           <params>
             <param index="0">
               <value>
@@ -94,7 +95,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2757" started-at="2021-10-27T00:11:06 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T00:11:08 IST">
+        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2414" started-at="2021-10-27T20:43:03 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T20:43:06 IST">
           <params>
             <param index="0">
               <value>
@@ -105,7 +106,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="FAIL" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2918" started-at="2021-10-27T00:11:08 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T00:11:11 IST">
+        <test-method status="FAIL" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2061" started-at="2021-10-27T20:43:06 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T20:43:08 IST">
           <params>
             <param index="0">
               <value>
@@ -167,7 +168,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="2667" started-at="2021-10-27T00:11:12 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T00:11:15 IST">
+        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.String)[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="verifySearchFunctionality" duration-ms="1855" started-at="2021-10-27T20:43:08 IST" data-provider="dataProviderForSearchFunctionality" finished-at="2021-10-27T20:43:10 IST">
           <params>
             <param index="0">
               <value>
@@ -178,11 +179,39 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="tearDown" is-config="true" duration-ms="833" started-at="2021-10-27T00:11:15 IST" finished-at="2021-10-27T00:11:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestWebAutomation.TestSearchFeature@18eed359]" name="tearDown" is-config="true" duration-ms="608" started-at="2021-10-27T20:43:10 IST" finished-at="2021-10-27T20:43:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestWebAutomation.TestSearchFeature -->
+      <class name="TestWebAutomation.TestUploadFunctionalityUsingSendKeys">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@6c3708b3]" name="setUp" is-config="true" duration-ms="1106" started-at="2021-10-27T20:43:10 IST" finished-at="2021-10-27T20:43:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@301d8120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUploadaFileFeature(java.lang.String)[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@6c3708b3]" name="verifyUploadaFileFeature" duration-ms="1330" started-at="2021-10-27T20:43:11 IST" data-provider="dataProviderForUploadFunctionalityUsingSendKeys" finished-at="2021-10-27T20:43:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\WorkSpaces\eclipse-workspace\remoteWebDriver\test.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadaFileFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestWebAutomation.TestUploadFunctionalityUsingSendKeys@6c3708b3]" name="tearDown" is-config="true" duration-ms="593" started-at="2021-10-27T20:43:13 IST" finished-at="2021-10-27T20:43:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestWebAutomation.TestUploadFunctionalityUsingSendKeys -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

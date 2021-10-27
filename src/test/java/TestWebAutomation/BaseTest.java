@@ -42,7 +42,7 @@ public class BaseTest {
 		
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
-        options.addArguments("disable-gpu");
+       // options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 		testcontext.setAttribute("driver", driver);
